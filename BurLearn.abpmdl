@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "BurLearn.Application": {
+      "path": "src/BurLearn.Application/BurLearn.Application.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.Application.Tests": {
+      "path": "test/BurLearn.Application.Tests/BurLearn.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "BurLearn.Domain.Shared": {
+      "path": "src/BurLearn.Domain.Shared/BurLearn.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.Application.Contracts": {
+      "path": "src/BurLearn.Application.Contracts/BurLearn.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.HttpApi": {
+      "path": "src/BurLearn.HttpApi/BurLearn.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.HttpApi.Client": {
+      "path": "src/BurLearn.HttpApi.Client/BurLearn.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.EntityFrameworkCore.Tests": {
+      "path": "test/BurLearn.EntityFrameworkCore.Tests/BurLearn.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "BurLearn.EntityFrameworkCore": {
+      "path": "src/BurLearn.EntityFrameworkCore/BurLearn.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.TestBase": {
+      "path": "test/BurLearn.TestBase/BurLearn.TestBase.abppkg",
+      "folder": "test"
+    },
+    "BurLearn.Domain.Tests": {
+      "path": "test/BurLearn.Domain.Tests/BurLearn.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "BurLearn.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/BurLearn.HttpApi.Client.ConsoleTestApp/BurLearn.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "BurLearn.DbMigrator": {
+      "path": "src/BurLearn.DbMigrator/BurLearn.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.HttpApi.Host": {
+      "path": "src/BurLearn.HttpApi.Host/BurLearn.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "BurLearn.Domain": {
+      "path": "src/BurLearn.Domain/BurLearn.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

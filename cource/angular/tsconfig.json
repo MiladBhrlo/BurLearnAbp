@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@cource": [
+        "projects/cource/src/public-api.ts"
+      ],
+      "@cource/config": [
+        "projects/cource/config/src/public-api.ts"
+      ],
+      "@proxy": ["projects/cource/src/lib/proxy/index.ts"],
+      "@proxy/*": ["projects/cource/src/lib/proxy/*"]
+    }
+  }
+}
